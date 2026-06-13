@@ -1,0 +1,11 @@
+<Config>
+	<Preprocessor>
+	 <Include>
+		<Path>\\include</Path>
+	 </Include>
+	</Preprocessor>
+	
+	<Compilator>
+		<delete_intermediate_files>true</delete_intermediate_files>
+	</Compilator>
+</Config>
