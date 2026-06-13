@@ -16,12 +16,17 @@ development board via SD card.
 
 - `CrossASM.exe` — the pre-built Windows executable of the assembler
 - `CONFIG/` — configuration files used by CrossASM at runtime
-- `docs/` — screenshots and reference material for this README
 
 ## System requirements
 
 CrossASM is a native Windows application. It runs on standard Windows 10 and
 Windows 11 installations.
+
+> **Runtime dependency** — `CrossASM.exe` requires the Microsoft Visual C++
+> Redistributable (x64). The runtime is typically present on machines with
+> Microsoft Visual Studio installed; on systems where it is not available, it
+> can be obtained from the
+> [official Microsoft distribution](https://aka.ms/vs/17/release/vc_redist.x64.exe).
 
 ## Quick tour
 
@@ -34,7 +39,7 @@ the source file(s) you wish to assemble.
 On startup, the program prints a banner with version information and presents
 the main menu:
 
-![CrossASM main menu](docs/tcrasm_main_menu.png)
+![CrossASM main menu](tcrasm_main_menu.png)
 
 The available options are:
 
@@ -51,7 +56,7 @@ The available options are:
 Selecting option **1** prompts for the name of the source file to load. Type
 the filename **without the `.asm` extension**:
 
-![Loading a source file](docs/tcrasm_load_source.png)
+![Loading a source file](tcrasm_load_source.png)
 
 ### Assembling
 
@@ -60,7 +65,7 @@ includes a full listing in which each instruction is shown together with its
 address, hexadecimal/decimal encoding, and a colour-coded balanced-ternary
 representation:
 
-![Assembly output, Pass 2 and Pass 3](docs/tcrasm_assembly_output.png)
+![Assembly output, Pass 2 and Pass 3](tcrasm_assembly_output.png)
 
 ### Writing to SD card
 
