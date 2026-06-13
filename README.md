@@ -75,6 +75,8 @@ write procedure prompts for the SD card drive letter and for the desired
 storage mode (`Raw` or `FileSystem`); for normal operation, choose
 `FileSystem (2)`.
 
+![Writing the program to SD card](crossasm_sd_write.png)
+
 A complete, end-to-end walk-through of the assemble-and-load workflow is given
 in the example programs repository (see below).
 
