@@ -62,7 +62,7 @@ the filename **without the `.asm` extension**:
 
 Selecting option **3** runs the assembler over the loaded source. The output
 includes a full listing in which each instruction is shown together with its
-address, hexadecimal/decimal encoding, and a colour-coded balanced-ternary
+address, decimal/heptavigesimal encoding, and a colour-coded balanced-ternary
 representation:
 
 ![Assembly output, Pass 2 and Pass 3](tcrasm_assembly_output.png)
